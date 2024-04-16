@@ -10,10 +10,10 @@ Bu proje, basit bir dosya yönetim sistemi uygulamasını içerir. Kullanıcıya
 
 ## Özellikler
 
-- Dosya oluşturma: Kullanıcıya dosya oluşturma seçeneği sunar. Dosya oluşturulurken dosya adı ve oluşturulacak yer belirtilir.
-- Dosya silme: Kullanıcıya dosya silme seçeneği sunar. Silinecek dosya adı belirtilir.
-- Dosya listeleme: Kullanıcıya dosyaları listeleme seçeneği sunar. Belirli bir klasördeki dosyaların listesi görüntülenir.
-- Dosya içeriğini görüntüleme: Kullanıcıya dosya içeriğini görüntüleme seçeneği sunar. Dosyanın adı belirtilir ve dosya içeriği terminalde gösterilir.
+- **Dosya oluşturma:** Kullanıcıya dosya oluşturma seçeneği sunar. Dosya oluşturulurken dosya adı ve oluşturulacak yer belirtilir.
+- **Dosya silme:** Kullanıcıya dosya silme seçeneği sunar. Silinecek dosya adı belirtilir.
+- **Dosya listeleme:** Kullanıcıya dosyaları listeleme seçeneği sunar. Belirli bir klasördeki dosyaların listesi görüntülenir.
+- **Dosya içeriğini görüntüleme:** Kullanıcıya dosya içeriğini görüntüleme seçeneği sunar. Dosyanın adı belirtilir ve dosya içeriği terminalde gösterilir.
 
 ## Gereksinimler
 
