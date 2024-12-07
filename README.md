@@ -39,3 +39,7 @@ This project is open to contributions. If you find a bug or have a suggestion, y
 4. **Feedback:** You can open an issue on GitHub for feedback or to report bugs.
 
 For any contributions, bug reports, or suggestions, please refer to the project's GitHub page.
+
+---
+
+This README was prepared by Derya ACAR.
