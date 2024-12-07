@@ -1,41 +1,41 @@
-# Dosya Yönetim Sistemi 📁
+# File Management System 📁
 
-Bu proje, basit bir dosya yönetim sistemi uygulamasını içerir. Kullanıcılara dosya oluşturma, silme, listeleme ve dosya içeriğini görüntüleme gibi temel dosya işlemlerini gerçekleştirme imkanı sağlar. 
+This project contains a simple file management system application. It allows users to perform basic file operations such as creating, deleting, listing, and viewing file contents.
 
-## Özellikler ✨
+## Features ✨
 
-- **Dosya Oluşturma 📂:** Kullanıcılara dosya oluşturma seçeneği sunar. Dosya oluşturulurken dosya adı ve oluşturulacak dizin belirtilir. 
-  - Örnek: `create_file("dosya.txt", "/home/kullanici/")`
+- **Create File 📂:** Allows users to create a file by specifying the file name and the directory where the file should be created.
+  - Example: `create_file("dosya.txt", "/home/kullanici/")`
 
-- **Dosya Silme 🗑️:** Kullanıcılara mevcut dosyaları silme seçeneği sunar. Silinecek dosyanın adı belirtilir ve sistemden kaldırılır.
-  - Örnek: `delete_file("dosya.txt")`
+- **Delete File 🗑️:** Provides the option to delete an existing file. The user specifies the file name, and it is removed from the system.
+  - Example: `delete_file("dosya.txt")`
 
-- **Dosya Listeleme 📋:** Belirli bir klasördeki tüm dosyaların listesini görüntülemeyi sağlar. Kullanıcı, klasör yolunu belirterek içerisindeki dosyaları görebilir.
-  - Örnek: `list_files("/home/kullanici/")`
+- **List Files 📋:** Allows users to view all files in a specified folder. By providing the folder path, users can see the files within it.
+  - Example: `list_files("/home/kullanici/")`
 
-- **Dosya İçeriğini Görüntüleme 👁️:** Kullanıcıya, belirtilen dosyanın içeriğini görüntüleme seçeneği sunar. Dosya adı verilir ve içerik terminalde gösterilir.
-  - Örnek: `view_file("dosya.txt")`
+- **View File Content 👁️:** Provides the option to view the contents of a specified file. The file name is given, and its contents are displayed in the terminal.
+  - Example: `view_file("dosya.txt")`
 
-## Gereksinimler ⚙️
+## Requirements ⚙️
 
-- **GNU Make 🖥️:** Proje dosyalarını derlemek için kullanılan araçtır. Projeyi derlemek için terminalde `make` komutunu kullanın.
-- **GCC Derleyici 🛠️:** Projenin C kodunu derlemek için GCC kullanılır. Projenin başarılı bir şekilde derlenmesi için gerekli olan C derleyicisidir.
+- **GNU Make 🖥️:** This tool is used to compile the project files. Use the make command in the terminal to compile the project.
+- **GCC Compiler 🛠️:** GCC is used to compile the C code for the project. It is the required C compiler to successfully compile the projec
 
-## Kullanım 🚀
+## Usage 🚀
 
-1. **Terminal Açın:** Proje klasöründe terminali açın.
-2. **Derleme Yapın:** Proje dosyalarını derlemek için terminalde `make` komutunu kullanın. Bu, gerekli tüm dosyaları derleyerek çalıştırılabilir bir binary dosyası oluşturur.
-   - Komut: `make`
-3. **Uygulamayı Çalıştırın:** Derlenen dosyayı çalıştırmak için binary dosyasını çalıştırın (`./file_management_app`). Bu komut, dosya yönetim sistemini başlatır ve kullanıma hazır hale getirir.
-   - Komut: `./file_management_app`
+1. **Open Terminal:** Open the terminal in the project folder.
+2. **Compile the Project:** Use the make command in the terminal to compile the project files. This will compile the necessary files and create an executable binary file.
+   - Command: `make`
+3. **Uygulamayı Çalıştırın:** Run the Application: To run the compiled project, execute the binary file (`./file_management_app`). This command will start the file management system and make it ready to use.
+   - Command: `./file_management_app`
 
-## Katkılar 🤝
+## Contributions 🤝
 
-Bu proje her türlü katkıya açıktır. Eğer bir hata bulursanız veya bir öneriniz varsa, aşağıdaki adımları takip ederek katkıda bulunabilirsiniz:
+This project is open to contributions. If you find a bug or have a suggestion, you can follow these steps to contribute:
 
-1. **Fork Yapın:** Projeyi kendi GitHub hesabınıza fork yapın ve bir kopyasını oluşturun.
-2. **Değişiklikler Yapın:** Kendi kopyanızda gerekli değişiklikleri yapın ve yeni özellikler ekleyin.
-3. **Pull Request Gönderin:** Değişikliklerinizi ana projeye katkı olarak göndermek için bir pull request oluşturun. Yapılan değişiklikleri ve eklenen özellikleri açıklayan bir mesaj ekleyin.
-4. **Geri Bildirim:** Geri bildirimlerde bulunmak için GitHub üzerinden bir issue açabilirsiniz.
+1. **Fork the Repository:** Fork the project to your own GitHub account to create a copy.
+2. **Make Changes:** Make the necessary changes or add new features to your copy.
+3. **Submit a Pull Request:** To contribute your changes to the main project, create a pull request. Include a message explaining the changes and new features.
+4. **Feedback:** You can open an issue on GitHub for feedback or to report bugs.
 
-Herhangi bir katkı, hata raporu veya öneri için projenin GitHub sayfasına başvurabilirsiniz.
+For any contributions, bug reports, or suggestions, please refer to the project's GitHub page.
