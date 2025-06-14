@@ -1,6 +1,13 @@
-# File Management System 📁
 
+<div align="center">
+  <h1>File Management System 📁</h1> <img src="https://github.com/deryaxacar/file-management-system/blob/main/folder.png" alt="http Logo" width="110"></br></br>
+</div>
+
+
+<p align="center">
 This project contains a simple file management system application. It allows users to perform basic file operations such as creating, deleting, listing, and viewing file contents.
+
+</p>
 
 ## Features ✨
 
